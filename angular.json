@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "clase_13_asincrona": {
+    "clase_16_asincrona": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/clase_13_asincrona",
+            "outputPath": "dist/clase_16_asincrona",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "clase_13_asincrona:build:production"
+              "browserTarget": "clase_16_asincrona:build:production"
             },
             "development": {
-              "browserTarget": "clase_13_asincrona:build:development"
+              "browserTarget": "clase_16_asincrona:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "clase_13_asincrona:build"
+            "browserTarget": "clase_16_asincrona:build"
           }
         },
         "test": {
@@ -94,5 +94,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "0bcda870-fdb8-4057-a3cd-754723b3a20a"
   }
 }
